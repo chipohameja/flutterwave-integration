@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include flutterwave_integration *.css
+recursive-include flutterwave_integration *.csv
+recursive-include flutterwave_integration *.html
+recursive-include flutterwave_integration *.ico
+recursive-include flutterwave_integration *.js
+recursive-include flutterwave_integration *.json
+recursive-include flutterwave_integration *.md
+recursive-include flutterwave_integration *.png
+recursive-include flutterwave_integration *.py
+recursive-include flutterwave_integration *.svg
+recursive-include flutterwave_integration *.txt
+recursive-exclude flutterwave_integration *.pyc
